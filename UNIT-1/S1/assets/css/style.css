@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.rettangolo {
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    color: black;
+    padding: 10px;
+}
+
+th {
+    width: 160px;
+}
+
+td {
+    padding-left: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: gray;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: orange;
+    color: black;
+}
