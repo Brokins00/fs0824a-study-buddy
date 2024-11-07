@@ -1,0 +1,11 @@
+$selezionato: true;
+$colori: (
+    rosso: red,
+    blu: blue,
+);
+
+#div {
+    .selected {
+        color: map-get($map: $colori, $key: blu);
+    }
+}
